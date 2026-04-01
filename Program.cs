@@ -22,6 +22,7 @@ namespace Assignment
 
         static void PlayGreeting()
         {// start of PlayGreeting method
+
             try
             {// Attempt to play the greeting sound
                 string paths = AppDomain.CurrentDomain.BaseDirectory;
