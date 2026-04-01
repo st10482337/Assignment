@@ -86,8 +86,8 @@ namespace Assignment
             {// If the user input contains the word "browsing", respond with tips for safe browsing, such as checking for HTTPS and avoiding unsafe websites
                 UIHelper.TypeEffect("Bot:  Always check for HTTPS when browsing.");
                 UIHelper.TypeEffect("Bot: Avoid unsafe or unknown websites.");
-            }
-            
+            }// If the user input does not match any of the predefined responses, show an error message indicating that the bot did not understand the input
+
             else
             {// If the user input does not match any of the predefined responses, show an error message indicating that the bot did not understand the input
                 UIHelper.ShowError();
