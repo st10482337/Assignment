@@ -65,7 +65,7 @@ namespace Assignment
                 UIHelper.TypeEffect("Bot: I'm running perfectly and ready to protect you 😄");
             }// If the user input contains the word "help", show the menu again to provide options for the user
             else if (input.Contains("help"))
-            {
+            {// If the user input contains the word "help", show the menu again to provide options for the user
                 UIHelper.ShowMenu();
             }// If the user input contains the word "purpose", respond with a message explaining the bot's purpose of educating the user about cybersecurity and keeping them safe online
             else if (input.Contains("purpose"))
