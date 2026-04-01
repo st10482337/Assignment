@@ -71,7 +71,7 @@ namespace Assignment
             else if (input.Contains("purpose"))
             {// If the user input contains the word "purpose", respond with a message explaining the bot's purpose of educating the user about cybersecurity and keeping them safe online
                 UIHelper.TypeEffect("Bot: My purpose is to educate you about cybersecurity and keep you safe online.");
-            }
+            }// If the user input contains the word "password", respond with tips for creating strong passwords, such as using a mix of characters and avoiding common words
             else if (input.Contains("password"))
             {// If the user input contains the word "password", respond with tips for creating strong passwords, such as using a mix of characters and avoiding common words
                 UIHelper.TypeEffect("Bot:  Think of your password as a lock.");
