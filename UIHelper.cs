@@ -8,7 +8,7 @@ namespace Assignment
 
 
         public static void TypeEffect(string message, ConsoleColor color = ConsoleColor.Green)
-        {
+        {//Start of TypeEffect method
             Console.ForegroundColor = color;
 
             foreach (char c in message)
